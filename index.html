@@ -30,29 +30,62 @@
         </div>
     </section>
     <section class="pub1">
-        <div>
-            <p>vous etes déja client ?<br><span id="span1">-10%</span> pour la souscription d'une <span id="span2">mutuelle</span></p>
-                
-        </div>
+        
+            <p class="text_pub">vous etes déja client ?<br><span id="span1">-10%</span> pour la souscription d'une <span id="span2">mutuelle</span></p>
+ 
+
         <div><p>En savoir plus</p></div>
     </section>
-    <div></div>
+    <div>Notre exigence:  <span id="">Votre satisfaction avant tout</span></div>
     <section class="ruban2">
         <div></div>
+        <span id="trait"></span>
         <div></div>
+        <span id="trait"></span>
         <div></div>
+        <span id="trait"></span>
         <div></div>
     </section>
-    <section class="pub2">
-        <p>Carousel <img src="images/vendre-voiture.png"></p>
-        <p></p>
-    </section>
+    <!--CAROUSSEL CODE-->
+    <div class="pub2">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/vendre-voiture.png" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/istockphoto-1331281873-612x612.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/istockphoto-1349412663-612x612.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+      </div>
+     <br>
+
+      <div style="text-align:center">
+         <span class="dot"></span> 
+         <span class="dot"></span> 
+         <span class="dot"></span> 
+      </div>
+    </div>
+    <!--CAROUSEL CODE-->
+    
     <footer>
-        <div>
-            <img src="images/allianz.png">
-            <img src="images/mondial.png">
-            <img src="images/serenis.png">
-            <img src="images/wakam.png">
+        <div class="haut">
+            <div class="partenaire">
+                <img src="images/allianz.png">
+                <img src="images/mondial.png">
+                <img src="images/serenis.png">
+                <img src="images/wakam.png">
+            </div>
         </div>
         <div class="bas">
             <p class="logo_bas">
@@ -77,4 +110,29 @@
         </div>
     </footer>
 </body>
+
+<!--CAROUSSEL-->
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+    </script>
+
+<!--CAROUSEL-->
 </html>
