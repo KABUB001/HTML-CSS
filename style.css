@@ -1,0 +1,256 @@
+/*GENERAL*/
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body 
+{
+    font-family: inter,sans-serif;
+}
+
+[src="images/logocar.png"]
+{
+    border-radius: 75%;
+    width: 117px;
+    height: 61px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/*HEADER*/
+header
+{
+    height: 196px;
+    background-color: #F98B0A;
+    
+}
+header div.ruban
+{
+    height: 90px;
+    background-color: #E1992C;
+}
+header div.ruban [src="images/logocar.png"]
+{
+    float: left;
+    margin: 10px 100px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 15px;
+}
+header div.logo_name
+{
+    font-size: 32px;
+    font-weight: 550;
+    text-align: center;
+    
+}
+header div.logo_name .orange
+{
+    color: #FB3C00;
+}
+header div.logo_name .white
+{
+    color: #fff;
+}
+
+header .ruban nav ul li
+{
+    display: inline-block;
+    float: left;
+}
+
+header .ruban nav ul li a
+{
+   font-weight: 525;
+   margin-right: 20px;
+}
+
+
+/*BODY*/
+
+
+
+[src="images/citadine.png"]
+{
+    width: 567px;
+    height: 381px;
+    display: block;
+    position:relative;
+    top: -105px;
+    left: 165px;
+    
+}
+section.main
+{
+    height:300px;
+}
+.main div [src="images/citadine.png"]
+{
+    float: left;
+    
+
+}
+
+.main div p
+{
+    float: right;
+}
+
+/*SECTION pub1*/
+section.pub1 
+{
+    width: 753px;
+    height: 272px;
+    margin: auto;
+}
+
+#span1 
+{
+    color: #D65106;
+    font-size: 36px;
+}
+#span2
+{
+    color: #1E4BC0;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+[src="images/allianz.png"]
+{
+    width: 178px;
+    height: 55px;
+}
+
+[src="images/mondial.png"]
+{
+    width: 178px;
+    height: 55px;
+}
+
+[src="images/serenis.png"]
+{
+    width: 126px;
+    height: 52px;
+}
+
+[src="images/wakam.png"]
+{
+    width: 256px;
+    height: 56px;
+}
+
+/*PIED*/
+
+[src="images/telephone.svg"]
+{
+    width: 39px;
+    height: 43px;
+}
+
+[src="images/Gmail_Icon.png"]
+{
+    width: 40px;
+    height: 41px;
+}
+
+[src="images/whatsapp.png"]
+{
+    width: 42px;
+    height: 48px;
+}
+
+[src="images/Facebook.svg.png"]
+{
+    width: 43px;
+    height: 42px;
+}
+
+[src="images/Instagram.svg.png"]
+{
+    width: 39px;
+    height: 44px;
+}
+
+
+footer div.bas div.bas_droite p #adresse span #h3
+{
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+footer div.bas
+{
+    height: 102px;
+    background-color: #3E3535;
+    font-size: 18px;
+    color:#fff;
+}
+
+footer div.bas .logo_bas
+{
+    float: left;
+}
+footer div.bas .bas_droite p.reseaux
+{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+footer div.bas .bas_droite
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+
+footer div.bas .bas_droite p.reseaux span #reseaux
+{
+    display: flex;
+    flex-direction: row;
+}
+
+footer div.bas .bas_droite p.reseaux span#label
+{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 550;  
+
+}
+
+footer div.bas .bas_droite p.adresse
+{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 250px; 
+    font-size: 18px;
+}
+
+
